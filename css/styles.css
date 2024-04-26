@@ -11,6 +11,7 @@
   --hue-color: 224;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
+  --log-color: #3E6FF4;
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
@@ -167,7 +168,8 @@ img {
 }
 
 .nav__logo {
-  color: var(--second-color);
+  color: var(--log-color);
+  font-size: 22px;
 }
 
 .nav__toggle {
@@ -204,7 +206,6 @@ img {
 }
 
 .home__title {
-  font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
 }
 
@@ -357,6 +358,8 @@ img {
 
 .work__img img {
   transition: 1s;
+  height: 200px;
+  object-fit: cover;
 }
 
 .work__img img:hover {
@@ -370,18 +373,25 @@ img {
   font-weight: var(--font-semi);
   padding: 1rem;
   border-radius: 0.5rem;
-  border: 1.5px solid var(--second-color);
+  border: 1.5px solid hsl(224deg 4.33% 50.62%);
   outline: none;
   margin-bottom: var(--mb-4);
 }
 
-.contact__button {
-  display: block;
-  border: none;
-  outline: none;
+.contact__form--submit {
+  background-color: hsl(225, 13%, 88%);
   font-size: var(--normal-font-size);
   cursor: pointer;
-  margin-left: auto;
+  border: none;
+  outline: none;
+  transition: all linear 0.5s;
+}
+
+.contact__form--submit:hover {
+  background-color: #3E6FF4;
+  color: white;
+  border: none !important;
+  outline: none !important;
 }
 
 /* ===== FOOTER =====*/

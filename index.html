@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepu Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responive.css">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@icon/icofont@1.0.1-alpha.1/icofont.min.css">
+</head>
+
+<body>
+    <!-- navbar start here -->
+    <header class="master-header">
+        <div class="container">
+            <nav class="navbar" id="navbar">
+                <div class="navbar-logo">
+                    <img src="assets/img/deepu.png" alt="Logo">
+                    <a href="#">Deepu</a>
+                </div>
+                <ul class="navbar-menu" id="navbar-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="navbar-toggler" id="navbar-toggler">
+                    &#9776;
+                </button>
+            </nav>
+        </div>
+    </header>
+    <nav class="offcanvas" id="offcanvasNav">
+        <button class="close-btn" id="closeBtn"><i class="fa-solid fa-xmark"></i></button>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--navbar end here-->
+    <main>
+        <!-- main-banner start here -->
+        <section class="main-banner bg-dark" id="home">
+            <div class="container">
+                <div class="main-banner-inner">
+                    <div class="banner-left">
+                        <h1>Hello! I'm</h1>
+                        <h1>Deepu Rao</h1>
+                        <h2>I'm a
+                            <span style="--i:4;" data-text="Web Developer.">
+                                Web Developer.
+                            </span>
+                            <span style="--i:3;" data-text=" Web Designer.">
+                                Web Designer.
+                            </span>
+                            <span style="--i:2;" data-text="Web Developer.">
+                                Web Developer.
+                            </span>
+                            <span style="--i:1;" data-text=" Web Designer.">
+                                Web Designer.
+                            </span>
+                        </h2>
+                        <p>The user-facing part of the website. </p>
+                        <a href="deepu.pdf" class="cv-btn btn-outline-one icon-space-left" download>Download CV <i
+                                class="icofont-download"></i></a>
+                    </div>
+                    <div class="banner-right">
+                        <div class="img-box">
+                            <div class="img-item">
+                                <img src="assets/img/deepu.png" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- main-banner end here -->
+
+        <!-- about section start here -->
+        <section class="about section block" id="about">
+            <div class="container">
+                <h2 class="cormorant-garamond-bold font-weight">About Us</h2>
+                <div class="about-inner">
+                    <div class="about-box-left">
+                        <img src="assets/img/deepu.png" alt="Deepu Kumar Rao">
+                    </div>
+                    <div class="about-box-right">
+                        <h3>I'm Deepu</h3>
+                        <p>Hello, I'm Deepu Kumar Rao. As a fresh and enthusiastic <span>web designer and
+                                developer,</span> I'm
+                            eager to bring innovative and
+                            visually appealing designs to life, while constantly honing my skills to create
+                            user-friendly and immersive online
+                            experiences. I love what I do and I care about the products I'm working on. I stay on top of
+                            trends and pride myself on
+                            always staying unique.</p>
+                        <p>As a Frontend developer I've expertise in Basic Javascript, Git, Creative CSS animation,
+                            Advanced HTML5, CSS3, Bootstrap,
+                            Photoshop. My current strongest part is advanced custom animation with CSS, React.js, and
+                            Javascript. I'm also well
+                            familiar with JS plugins like OwlCarousel, Bootstrap Carousel, and many more, and I'm also
+                            able
+                            to work with Git.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section block bg-dark">
+            <div class="container">
+                <div class="nav-tabs">
+                    <div class="tabs">
+                        <button class="tab-button active" data-tab="skills">Skills</button>
+                        <button class="tab-button" data-tab="education">Education</button>
+                        <button class="tab-button" data-tab="exeperience">Exeperience</button>
+                    </div>
+                    <div class="tab-content">
+                        <div id="skills" class="tab-pane active">
+                            <div class="skill-box">
+                                <div class="box1">HTML</div>
+                                <div class="box1">CSS</div>
+                                <div class="box1">React.js</div>
+                                <div class="box1">Bootstrap</div>
+                            </div>
+                            <div class="skill-box">
+                                <div class="box1">JavaScript</div>
+                                <div class="box1">Tailwind CSS</div>
+                                <div class="box1">Wordpress</div>
+                                <div class="box1">Photoshop</div>
+                            </div>
+                            <div class="skill-box">
+                                <div class="box1">Figma</div>
+                                <div class="box1">Git &amp; Github</div>
+                            </div>
+                        </div>
+
+                        <div id="education" class="tab-pane">
+                            <ul class="resume-list">
+                                <!-- Start Resume Tab List Single Item -->
+                                <li class="resume-tab-list-single-item">
+                                    <div class="content">
+                                        <div class="left border-bottom ">
+                                            <span class="year">2023 - 2026</span>
+                                        </div>
+                                        <div class="right">
+                                            <h3 class="title">Bachelor of Computer Application </h3>
+                                            <span class="institute-name">Indira Gandhi National Open University,
+                                                Delhi</span>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                industry. Lorem Ipsum has been indus
+                                                dard dummy text ever since the 1500 when an uniknown prnter took galley
+                                                of type and scrambled make
+                                                specimen book has not only five centuries the into electronic.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- End Resume Tab List Single Item -->
+                            </ul>
+                        </div>
+                        <div id="exeperience" class="tab-pane">
+                            <ul class="resume-list">
+                                <!-- Start Resume Tab List Single Item -->
+                                <li class="resume-tab-list-single-item">
+                                    <div class="content">
+                                        <div class="left border-bottom">
+                                            <span class="year">2023 - 2024</span>
+                                        </div>
+                                        <div class="right">
+                                            <h3 class="title">Web Developer</h3>
+                                            <span class="institute-name">i3I SYSTEMS PVT. LTD.</span>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                industry. Lorem Ipsum has been indus
+                                                dard dummy text ever since the 1500 when an uniknown prnter took galley
+                                                of type and scrambled make
+                                                specimen book has not only five centuries the into electronic.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- End Resume Tab List Single Item -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about section end here -->
+
+        <!-- services section start here -->
+        <section class="services section block" id="services">
+            <div class="container">
+                <h2 class="cormorant-garamond-bold font-weight text-align-center">Services</h2>
+                <div class="services-card">
+                    <div class="card">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Web Design</h3>
+                        <p>We create beautiful and functional websites tailored to your needs.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>Web Development</h3>
+                        <p>We develop high-performance, scalable websites and applications.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h3>Ui/Ux Designer</h3>
+                        <p>A creating user-centered designs to enhance user satisfaction by
+                            improving the usability,
+                            accessibility, and interaction of digital products.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services section end here -->
+
+        <!-- project section start here -->
+        <section class="project section block bg-dark" id="project">
+            <div class="container ">
+                <h2 class="cormorant-garamond-bold font-weight text-align-center">Project</h2>
+                <div class="project-card" id="cardContainer">
+                    <div class="card1">
+                        <img src="assets/img/work1.png" alt="Placeholder">
+                        <div class="card-content">
+                            <h3 class="card-title">Social Media Website</h3>
+                            <p class="card-description">A social media website is an online platform.</p>
+                            <a href="https://github.com/deepurao123/social-media-website" target="_blank"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <img src="assets/img/work2.png" alt="Placeholder">
+                        <div class="card-content">
+                            <h3 class="card-title">Hubble Space Telescope</h3>
+                            <p class="card-description">The Hubble Space Telescope is a powerful space.</p>
+                            <a href="https://deepurao123.github.io/nasa/" target="_blank"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <img src="assets/img/work3.png" alt="Placeholder">
+                        <div class="card-content">
+                            <h3 class="card-title">Coffee</h3>
+                            <p class="card-description">Coffee is a popular beverage made from roasted coffee beans.</p>
+                            <a href="https://deepurao123.github.io/responsive-coffee-website/" target="_blank"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <img src="assets/img/workk7.png" alt="Placeholder">
+                        <div class="card-content">
+                            <h3 class="card-title">Faishon Collection</h3>
+                            <p class="card-description">Fashion is the art and practice of designing.</p>
+                            <a href="https://deepurao123.github.io/Rivo-fashion/" target="_blank"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="card1 hidden">
+                        <img src="assets/img/work6.png" alt="Placeholder">
+                        <div class="card-content">
+                            <h3 class="card-title">E-comerce</h3>
+                            <p class="card-description">E-commerce, short for electronic commerce, refers to the buying
+                                and selling of goods and services over the internet.</p>
+                            <a href="https://deepurao123.github.io/e-comerce/" target="_blank"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="card1 hidden">
+                        <img src="assets/img/work8.png" alt="Placeholder">
+                        <div class="card-content">
+                            <h3 class="card-title">Cara Faishon</h3>
+                            <p class="card-description">Faishon e-comerce website</p>
+                            <a href="https://deepurao123.github.io/cara/" target="_blank"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="card1 hidden">
+                        <img src="assets/img/work9.png" alt="Placeholder">
+                        <div class="card-content">
+                            <h3 class="card-title">Green Nest Plant</h3>
+                            <p class="card-description">A plant is a living organism belonging to the kingdom Plantae.
+                            </p>
+                            <a href="https://deepurao123.github.io/green-nest/" target="_blank"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="card1 hidden">
+                        <img src="assets/img/work4.png" alt="Placeholder">
+                        <div class="card-content">
+                            <h3 class="card-title">Burgur Food</h3>
+                            <p class="card-description">Food Services website.</p>
+                            <a href="https://deepurao123.github.io/burgur/" target="_blank"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="show-more" id="toggleButton">Show More</button>
+                </div>
+            </div>
+        </section>
+        <!-- project section end here -->
+
+        <!-- -------------contact--------------- -->
+        <section class="contact section block" id="contact">
+            <div class="container">
+                <h2 class="cormorant-garamond-bold font-weight text-align-center">Contact</h2>
+                <div class="contact-box">
+                    <div class="contact-left">
+                        <h3 class="contact-title">Contact Me</h3>
+                        <p><i class="fa-solid fa-envelope"></i> deepukumarrao632@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+91-7070942978</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/deepurao123" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/deepu-kumar-rao-683227274/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/sdeepurao" target="_blank"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <div class="cv">
+                            <a href="deepu.pdf" class="cv-btn btn-outline-one icon-space-left" download>Download CV <i
+                                    class="icofont-download"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form id="form">
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" id="username" name="username" placeholder="Enter your username">
+                                <div class="error" id="usernameError">Username is required.</div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email">
+                                <div class="error" id="emailError">Please enter a valid email address.</div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" placeholder="Enter your message"
+                                    rows="5"></textarea>
+                                <div class="error" id="messageError">Message must be at least 10 characters long.</div>
+                            </div>
+
+                            <button type="submit" class="btn">Submit</button>
+                            <div class="success" id="successMessage">Form submitted successfully!</div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="particles-js"></div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="copyright">
+                © 2025 Deepu Rao. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <script src="js/particles.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+</body>
+
+</html>
